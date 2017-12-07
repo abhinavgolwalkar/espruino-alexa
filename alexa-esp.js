@@ -312,7 +312,7 @@ Alexa = function (wifi, options)
     });
 };
 
-//module.exports = Alexa;
-exports.create = function (wifi, options) {
-  return new Alexa(wifi, options);
-};
+module.exports = Alexa;
+//exports.create = function (wifi, options) {
+  //return new Alexa(wifi, options);
+//};
